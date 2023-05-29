@@ -1,0 +1,51 @@
+
+.midtext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+img{
+    height: 400px;
+}
+#cute{
+    margin: 10px;
+    height: auto;
+    height: 800px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.nav-item .nav-link{
+    color: white;
+}
+body{
+    overflow-x: hidden; 
+    overflow-y: scroll;
+}
+.h2{
+    position: absolute;
+    left: 5%;
+}
+#main{
+    color: white;
+    background-image: url(../images/respobg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-item a{
+    color: rgb(0, 0, 0);
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(253,243,212)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.gif1{
+    height: 400px;
+    max-height: 100%;
+    max-width: 30vw;
+}
+#main2{
+    background-image: url(../images/bgres.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

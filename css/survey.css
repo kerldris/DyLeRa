@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  #main{
+    display:flex;
+    flex-direction:column;
+    background-image: url(../images/survey.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 40px;
+    width:100%;
+    max-width:100%;
+    min-height:100%; 
+  }
+  #title{
+    text-align:center;
+    align-self: center;
+    padding:10px 0 0 0;
+    color: #4E5B61;
+  }
+  #description{
+    text-align:center;
+    width:60%;
+    align-self: center;
+    margin:0 0 20px 0;
+    color:#4E5B61;
+  }
+  #survey-form{
+    display:flex;
+    flex-direction:column;
+    color:#FFFAF1;
+    background: radial-gradient(#6C7582 0%,#4E5B61 100%);
+    align-self: center;
+    width:70%;  
+    padding:1.5em;
+    margin-bottom:20px;
+    max-width:500px;
+  }
+  .flex-column-class{
+    display:flex;
+    flex-direction:column;
+    padding: 0 1% 1.5% 1%;
+  }
+  div{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:10px;
+  }
+  #submit{
+    color:#6C7582;
+  }
+#title{
+  color: white;
+}
+#description{
+  color: white;
+}
+  

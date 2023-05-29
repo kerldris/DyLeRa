@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/logo.webp">
+    <title>Survey</title>
+</head>
+<body>
+    <main id="main">
+        <link rel="stylesheet" href="../css/survey.css">
+          <div id="title-div">
+              <h1 id="title">Survey</h1>
+          </div>
+          <p id="description">
+              The following survey is meant for student of IT
+          </p>
+          <form id="survey-form">
+              <label for="name" id="name-label" class="flex-column-class">
+                  Full name:
+                  <input type="text" id="name" placeholder="Enter your name" required>
+              </label>
+              <label for="email" id="email-label" class="flex-column-class">
+                  Email:
+                  <input type="email" id="email" placeholder="Enter a valid email" required>
+              </label>
+              <label for="number" id="number-label" class="flex-column-class">
+                  Number of hours you spent on IT class:
+                  <input type="number" id="number" placeholder="Enter number of hours" min="1" max="99999">
+              </label>
+              <label for="dropdown" id="dropdownmenu" class="flex-column-class">
+                 Does IT helped me in my career:
+                  <select id="dropdown">
+                      <option value="0"></option>
+                      <option value="1">Strongly disagree</option>
+                      <option value="2">Disagree</option>
+                      <option value="3">Neutral</option>
+                      <option value="4">Agree</option>
+                      <option value="5">Strongly agree</option>
+                  </select>
+              </label>
+              <div id="radio-boxes-division">
+                  <p id="radio-boxes-question">
+                      what you know about IT?
+                  </p>
+                  <label for="friend" style="font-size:0.9em">
+                      <input type="radio" name="radio-boxes" id="friend" value="friend">
+                      Programmer
+                  </label>
+                  <label for="social-media" style="font-size:0.9em">
+                      <input type="radio" name="radio-boxes" id="social-media" value="social-media">
+                      Social media
+                  </label>
+                  <label for="advertisement" style="font-size:0.9em">
+                      <input type="radio" name="radio-boxes" id="advertisement" value="advertisement">
+                      Advertisement
+                  </label>
+                  <label for="other" style="font-size:0.9em">
+                      <input type="radio" name="radio-boxes" id="other" value="other">
+                      Other
+                  </label>
+              </div>
+              <div id="check-boxes-division">
+                  <p id="check-boxes-question">
+                      What have you learned from the courses provided?
+                  </p>
+                  <label for="html-css" style="font-size:0.9em">
+                      <input type="checkbox" name="check-boxes" id="html-css" value="html-css">
+                      HTML & CSS
+                  </label>
+                  <label for="js-data-structures" style="font-size:0.9em">
+                      <input type="checkbox" name="check-boxes" id="js-data-structures" value="js-data-structures">
+                      JS and Data structures
+                  </label>
+                  <label for="front-end-libraries" style="font-size:0.9em">
+                      <input type="checkbox" name="check-boxes" id="front-end-libraries" value="front-end-libraries">
+                      Front End libraries
+                  </label>
+              </div>
+              <label for="comment-section" id="comment-part"  class="flex-column-class">
+                  If you have any comments or recommendations please feel free to share it with us:
+                  <textarea id="comment-section" name="comment">
+                  </textarea>
+              </label>
+              <input type="submit" id="submit">
+          </form>
+      </main>
+</body>
+</html>
